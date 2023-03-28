@@ -1,0 +1,36 @@
+/* Write your code here. */
+.gallery-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.caontainer {
+  width: 85%;
+  max-width: 700px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.images-Container {
+  list-style-type: none;
+  padding: 0px;
+}
+.main-image {
+  width: 100%;
+  border-radius: 20px;
+}
+.heading {
+  color: #1e293b;
+  font-size: 22px;
+  font-weight: 600;
+}
+.description {
+  color: #64748b;
+  font-size: 14px;
+  font-weight: 500;
+}
+.thumbnails-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
